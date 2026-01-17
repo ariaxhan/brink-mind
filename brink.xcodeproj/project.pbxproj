@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		310ADA602D390F02006096D2 /* ExyteChat in Frameworks */ = {isa = PBXBuildFile; productRef = 310ADA5F2D390F02006096D2 /* ExyteChat */; };
+		314E4E1B2D03AEC1003936DF /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 314E4E1A2D03AEC1003936DF /* SwiftKeychainWrapper */; };
+		314E4E1C2D03AED6003936DF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31EA2F372D02DC4300F19C61 /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		319405262CFEA0C0005510E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3194050D2CFEA0BF005510E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 319405142CFEA0BF005510E7;
+			remoteInfo = brink;
+		};
+		319405302CFEA0C0005510E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3194050D2CFEA0BF005510E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 319405142CFEA0BF005510E7;
+			remoteInfo = brink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		319405152CFEA0BF005510E7 /* brink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		319405252CFEA0C0005510E7 /* brinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3194052F2CFEA0C0005510E7 /* brinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31EA2EFB2D00E8BF00F19C61 /* brink-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "brink-Info.plist"; sourceTree = "<group>"; };
+		31EA2F372D02DC4300F19C61 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		319405172CFEA0BF005510E7 /* brink */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = brink;
+			sourceTree = "<group>";
+		};
+		319405282CFEA0C0005510E7 /* brinkTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = brinkTests;
+			sourceTree = "<group>";
+		};
+		319405322CFEA0C0005510E7 /* brinkUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = brinkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		319405122CFEA0BF005510E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314E4E1B2D03AEC1003936DF /* SwiftKeychainWrapper in Frameworks */,
+				314E4E1C2D03AED6003936DF /* CoreData.framework in Frameworks */,
+				310ADA602D390F02006096D2 /* ExyteChat in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		319405222CFEA0C0005510E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3194052C2CFEA0C0005510E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3194050C2CFEA0BF005510E7 = {
+			isa = PBXGroup;
+			children = (
+				31EA2EFB2D00E8BF00F19C61 /* brink-Info.plist */,
+				319405172CFEA0BF005510E7 /* brink */,
+				319405282CFEA0C0005510E7 /* brinkTests */,
+				319405322CFEA0C0005510E7 /* brinkUITests */,
+				31EA2F362D02DC4300F19C61 /* Frameworks */,
+				319405162CFEA0BF005510E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		319405162CFEA0BF005510E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				319405152CFEA0BF005510E7 /* brink.app */,
+				319405252CFEA0C0005510E7 /* brinkTests.xctest */,
+				3194052F2CFEA0C0005510E7 /* brinkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31EA2F362D02DC4300F19C61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31EA2F372D02DC4300F19C61 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		319405142CFEA0BF005510E7 /* brink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 319405392CFEA0C0005510E7 /* Build configuration list for PBXNativeTarget "brink" */;
+			buildPhases = (
+				319405112CFEA0BF005510E7 /* Sources */,
+				319405122CFEA0BF005510E7 /* Frameworks */,
+				319405132CFEA0BF005510E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				319405172CFEA0BF005510E7 /* brink */,
+			);
+			name = brink;
+			packageProductDependencies = (
+				314E4E1A2D03AEC1003936DF /* SwiftKeychainWrapper */,
+				310ADA5F2D390F02006096D2 /* ExyteChat */,
+			);
+			productName = brink;
+			productReference = 319405152CFEA0BF005510E7 /* brink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		319405242CFEA0C0005510E7 /* brinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3194053C2CFEA0C0005510E7 /* Build configuration list for PBXNativeTarget "brinkTests" */;
+			buildPhases = (
+				319405212CFEA0C0005510E7 /* Sources */,
+				319405222CFEA0C0005510E7 /* Frameworks */,
+				319405232CFEA0C0005510E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				319405272CFEA0C0005510E7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				319405282CFEA0C0005510E7 /* brinkTests */,
+			);
+			name = brinkTests;
+			packageProductDependencies = (
+			);
+			productName = brinkTests;
+			productReference = 319405252CFEA0C0005510E7 /* brinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3194052E2CFEA0C0005510E7 /* brinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3194053F2CFEA0C0005510E7 /* Build configuration list for PBXNativeTarget "brinkUITests" */;
+			buildPhases = (
+				3194052B2CFEA0C0005510E7 /* Sources */,
+				3194052C2CFEA0C0005510E7 /* Frameworks */,
+				3194052D2CFEA0C0005510E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				319405312CFEA0C0005510E7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				319405322CFEA0C0005510E7 /* brinkUITests */,
+			);
+			name = brinkUITests;
+			packageProductDependencies = (
+			);
+			productName = brinkUITests;
+			productReference = 3194052F2CFEA0C0005510E7 /* brinkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3194050D2CFEA0BF005510E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					319405142CFEA0BF005510E7 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					319405242CFEA0C0005510E7 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 319405142CFEA0BF005510E7;
+					};
+					3194052E2CFEA0C0005510E7 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 319405142CFEA0BF005510E7;
+					};
+				};
+			};
+			buildConfigurationList = 319405102CFEA0BF005510E7 /* Build configuration list for PBXProject "brink" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3194050C2CFEA0BF005510E7;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				314E4E192D03AEC1003936DF /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */,
+				310ADA5E2D390F02006096D2 /* XCRemoteSwiftPackageReference "Chat" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 319405162CFEA0BF005510E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				319405142CFEA0BF005510E7 /* brink */,
+				319405242CFEA0C0005510E7 /* brinkTests */,
+				3194052E2CFEA0C0005510E7 /* brinkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		319405132CFEA0BF005510E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		319405232CFEA0C0005510E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3194052D2CFEA0C0005510E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		319405112CFEA0BF005510E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		319405212CFEA0C0005510E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3194052B2CFEA0C0005510E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		319405272CFEA0C0005510E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 319405142CFEA0BF005510E7 /* brink */;
+			targetProxy = 319405262CFEA0C0005510E7 /* PBXContainerItemProxy */;
+		};
+		319405312CFEA0C0005510E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 319405142CFEA0BF005510E7 /* brink */;
+			targetProxy = 319405302CFEA0C0005510E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		319405372CFEA0C0005510E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		319405382CFEA0C0005510E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3194053A2CFEA0C0005510E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = brink/brink.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"brink/Preview Content\"";
+				DEVELOPMENT_TEAM = 443ZJZ9A39;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "brink-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = brink;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your health data will be used to improve the insights provided by brink";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Brink uses your health data to offer personalized mental health insights.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to find nearby therapists, even when the app is in the background";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to find nearby therapists";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need your mic to talk to the blob";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Speech recognition is used to convert your voice messages into text.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.brinklabs.brink.patient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3194053B2CFEA0C0005510E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = brink/brink.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"brink/Preview Content\"";
+				DEVELOPMENT_TEAM = 443ZJZ9A39;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "brink-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = brink;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your health data will be used to improve the insights provided by brink";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Brink uses your health data to offer personalized mental health insights.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to find nearby therapists, even when the app is in the background";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to find nearby therapists";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need your mic to talk to the blob";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Speech recognition is used to convert your voice messages into text.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.brinklabs.brink.patient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3194053D2CFEA0C0005510E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TBWTVY269;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brinklabs.brinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brink.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/brink";
+			};
+			name = Debug;
+		};
+		3194053E2CFEA0C0005510E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TBWTVY269;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brinklabs.brinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brink.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/brink";
+			};
+			name = Release;
+		};
+		319405402CFEA0C0005510E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TBWTVY269;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brinklabs.brinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = brink;
+			};
+			name = Debug;
+		};
+		319405412CFEA0C0005510E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TBWTVY269;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brinklabs.brinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = brink;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		319405102CFEA0BF005510E7 /* Build configuration list for PBXProject "brink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				319405372CFEA0C0005510E7 /* Debug */,
+				319405382CFEA0C0005510E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		319405392CFEA0C0005510E7 /* Build configuration list for PBXNativeTarget "brink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3194053A2CFEA0C0005510E7 /* Debug */,
+				3194053B2CFEA0C0005510E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3194053C2CFEA0C0005510E7 /* Build configuration list for PBXNativeTarget "brinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3194053D2CFEA0C0005510E7 /* Debug */,
+				3194053E2CFEA0C0005510E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3194053F2CFEA0C0005510E7 /* Build configuration list for PBXNativeTarget "brinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				319405402CFEA0C0005510E7 /* Debug */,
+				319405412CFEA0C0005510E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		310ADA5E2D390F02006096D2 /* XCRemoteSwiftPackageReference "Chat" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/Chat.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.10;
+			};
+		};
+		314E4E192D03AEC1003936DF /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jrendel/SwiftKeychainWrapper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		310ADA5F2D390F02006096D2 /* ExyteChat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 310ADA5E2D390F02006096D2 /* XCRemoteSwiftPackageReference "Chat" */;
+			productName = ExyteChat;
+		};
+		314E4E1A2D03AEC1003936DF /* SwiftKeychainWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 314E4E192D03AEC1003936DF /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */;
+			productName = SwiftKeychainWrapper;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3194050D2CFEA0BF005510E7 /* Project object */;
+}

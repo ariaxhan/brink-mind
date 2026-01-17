@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppleLanguages</key>
+	<array>
+		<string>en-US</string>
+	</array>
+	<key>NSHealthKitUsageDescription</key>
+	<string>Brink needs access to your health data to provide personalized mental health insights</string>
+	<key>NSPersistentStoreEncryption</key>
+	<true/>
+	<key>com.apple.developer.healthkit</key>
+	<true/>
+	<key>com.apple.developer.healthkit.access</key>
+	<array>
+		<string>health-records</string>
+	</array>
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>fetch</string>
+        <string>processing</string>
+    </array>
+            
+</dict>
+</plist>
